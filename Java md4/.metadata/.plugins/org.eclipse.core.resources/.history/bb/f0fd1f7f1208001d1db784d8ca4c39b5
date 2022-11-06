@@ -1,0 +1,10 @@
+package Objectclass;
+
+public class Shopping {
+	String Pdtname,Brand,Colour;int Price;
+
+	public static void main(String[] args) {
+     
+	}
+
+}

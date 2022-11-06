@@ -1,0 +1,10 @@
+package Module1_Practice;
+
+public class Sum_Of_Even_from_given_number {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

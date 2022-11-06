@@ -1,0 +1,22 @@
+package Module1_Practice;
+
+import java.util.Scanner;
+public class Product_Of_Odd {
+	public static void main(String[] args) {
+	Scanner sc= new Scanner(System.in);
+		System.out.println("Enter from number:");
+		int fromnum=sc.nextInt();
+	    System.out.println("Enter To number:");
+	    int tonum=sc.nextInt();
+	    for(int i=fromnum;i<=tonum;i++) {
+	    	int product=1;
+	    	for(int j=1;j<=i;j++) {
+	    	if(i%j!=0)
+	    		product=product*i;
+	  	}
+	    
+    System.out.println(product);
+
+	    }
+	}
+	}

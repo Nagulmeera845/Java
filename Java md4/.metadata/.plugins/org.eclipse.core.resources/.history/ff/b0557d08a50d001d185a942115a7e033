@@ -1,0 +1,25 @@
+package Day2;
+import java.util.Scanner;
+
+public class Swapcmdlinearg {
+
+	public static void main(String[] args) {
+    Scanner scan =new Scanner(System.in);
+    System.out.println("Enter number :");
+    System.out.println("Enter name :");
+    System.out.println("Enter city :");
+    System.out.print("Enter age :");
+    Long i=scan.nextLong();
+    String n=scan.nextLine();
+    String city=scan.nextLine();
+    int age=scan.nextInt();
+    System.out.println("my number is :"+ i);
+    System.out.println("My name is :"+n);
+    System.out.println("my City is :"+city);
+    System.out.println("My age is : "+age);
+    
+    
+    
+	}
+
+}

@@ -1,0 +1,29 @@
+// Hirearichical Inheritance
+// one parent 
+// two childs
+
+class Animal_3 {
+	public void eat() {
+		System.out.println("Animals eat");
+	}
+   }
+class Dog_3 extends Animal_3 {
+	public void bark(){
+     System.out.println("Dog barks");		
+	}
+	}
+class Cat_3 extends Animal_3{
+	public void meow() {
+		System.out.println("cat meow's");
+	}
+}
+public class Forest_3{
+public static void main (String []args) {
+Dog_3 d1=new Dog_3();
+	d1.eat();
+	d1.bark();
+Cat_3 c1=new Cat_3();
+    c1.eat();
+    c1.meow();
+}
+}

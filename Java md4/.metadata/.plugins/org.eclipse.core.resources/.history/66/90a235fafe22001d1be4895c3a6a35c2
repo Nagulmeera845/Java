@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+public class ListIterator {
+	public static void main(String[] args) {
+    ArrayList<String> a1=new ArrayList<>();
+    a1.add("Java");
+    a1.add("Python");
+    a1.add(null);
+    a1.add("Sql");
+    a1.add("Ds");
+    ListIterator<String> i1=a1.listIterator<>();
+    System.out.println("Forward direction:");
+    while(i1.hasNext()==true) {
+    	System.out.println(i1.next());
+    }
+    System.out.println("Reverse direction:");
+    while(i1.hasPrevious()==true) {
+    	System.out.println(i1.Previous());
+    }
+	}
+
+}

@@ -1,0 +1,16 @@
+package ArrayProgramming;
+//creation array of float type
+public class Array_2_1 {
+
+	public static void main(String[] args) {
+     //@array creation
+		float per[]=new float[5] ;
+		//@intialisation
+		per[0]=54.8F; per[1]=52.6F; per[2]=96.4F;
+		per[3]=11.0F; per[4]=55.5F;
+		
+		//@printing
+ System.out.println(per[0]+" "+per[1]+" "+per[2]+" "+per[3]+" "+per[4]);
+	}
+
+}

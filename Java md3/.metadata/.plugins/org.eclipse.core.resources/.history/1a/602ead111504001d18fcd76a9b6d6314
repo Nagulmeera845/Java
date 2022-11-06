@@ -1,0 +1,38 @@
+package Abstraction;
+interface ATM{
+	void Withdraw();
+	void deposit();
+	void Pinchange();
+}
+class Icici_Atm implements ATM{
+	public void Withdraw() {
+		System.out.println("Withdraw");
+	}
+	public void Deposit() {
+		System.out.println("Deposit");
+	}
+	public void Pinchange() {
+		System.out.println("Deposit");
+	}
+}
+class City_Atm implements ATM{
+	public void Withdraw() {
+		System.out.println("Withdraw");
+	}
+	public void Deposit() {
+		System.out.println("Deposit");
+	}
+	public void Pinchange() {
+		System.out.println("Deposit");
+	}
+}
+
+public class User_3 {
+
+	public static void main(String[] args) {
+		ATM a1=new Icici_Atm();
+		
+
+	}
+
+}

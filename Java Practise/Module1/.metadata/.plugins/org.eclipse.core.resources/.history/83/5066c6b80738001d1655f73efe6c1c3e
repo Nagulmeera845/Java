@@ -1,0 +1,23 @@
+package Module1_Practice;
+
+import java.util.Scanner;
+
+public class Sum_Of_Even_from_given_number {
+
+	public static void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter number:");
+    int rem,sum=0;
+    int num=sc.nextInt();
+    while(num>0)
+    {
+    	rem=num%10;
+    	num=num/10;
+    	if(rem%2==0)
+    		sum=sum+rem;
+    		
+    }
+    System.out.println("Sum of even number from given number "+num+" is : "+sum);
+	}
+
+}

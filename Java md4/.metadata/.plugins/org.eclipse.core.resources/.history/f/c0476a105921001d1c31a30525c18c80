@@ -1,0 +1,23 @@
+package Strings_Progms;
+
+public class Prog_11 {
+
+	public static void main(String[] args) {
+    int count=0;
+    String s="madam level is high";
+    String str[]=s.split(" ");//here space is must
+    for(String w:str)
+    {
+    	String word=w,rev=" ";//here space is must
+    	for(int i=word.length()-1;i>=0;i--)
+    	{
+    		char ch=word.charAt(i);
+    		rev=rev+ch;
+      	}
+    	if(rev.equals(word))
+    		count++;
+    }
+    System.out.println("Total no.of palindromes:"+count);
+	}
+
+}

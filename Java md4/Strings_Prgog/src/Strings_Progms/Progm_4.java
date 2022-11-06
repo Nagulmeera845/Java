@@ -1,0 +1,36 @@
+package Strings_Progms;
+
+import java.util.Scanner;
+
+//WAP to print vowels from your name and also make a count of it 
+
+public class Progm_4 {
+
+	public static void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter your string:");
+    String s1=new String(sc.nextLine());
+    int len=s1.length(),count=0;
+    for(int i=0;i<len;i++)
+    {
+    	char ch=s1.charAt(i);
+    	if(ch=='a')
+    		count++;
+    	if(ch=='e')
+    		count++;
+    	if(ch=='i')
+    		count++;
+    	if(ch=='o')
+    		count++;
+    	if(ch=='u')
+    		count++;
+    	System.out.println(ch);
+    }
+    System.out.println("Total no of Vowels  are: "+count);
+    sc.close();
+	}
+
+	
+	}
+
+

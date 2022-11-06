@@ -1,0 +1,12 @@
+package Important_Programs;
+
+import java.util.Arrays;
+
+public class Ascending {
+	public static void main(String[] args) {
+		String arr[]=new String [] {"Shahin","Jani","Nagul"};
+		Arrays.sort(arr);
+		System.out.println(arr);
+	}
+
+}

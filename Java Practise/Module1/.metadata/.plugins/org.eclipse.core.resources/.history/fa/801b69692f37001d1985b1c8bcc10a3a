@@ -1,0 +1,13 @@
+
+public class Module1 {
+
+	public static void main(String[] args) {
+    int a=23;
+    if(a%23==0&&a%1==0)
+   System.out.println("divsble");
+    else
+    	System.out.println("no");
+	
+	}
+
+}

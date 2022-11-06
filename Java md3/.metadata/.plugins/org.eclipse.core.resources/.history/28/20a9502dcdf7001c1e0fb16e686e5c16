@@ -1,0 +1,11 @@
+// 5.1
+class A_6 {
+	public A_6 (int i) {
+		System.out.println("A-class constructor with args");
+	}
+	public A_6{
+		this (50000);
+		System.out.println("A-class constructor");
+	}
+
+}

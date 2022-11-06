@@ -1,0 +1,18 @@
+// static variables or class var
+public class Static_var_Electronics {
+	static String name="FAN",brand="Ganga",colour="white",Purstore="Bajaj";
+	static int price=2500;
+	public static void display()
+	{
+		System.out.println(name);
+		System.out.println(colour);
+		System.out.println(brand);
+		System.out.println(Purstore);
+		System.out.println(price);
+	}
+	public static void main (String args[])
+	{
+		display();
+	
+	}
+}

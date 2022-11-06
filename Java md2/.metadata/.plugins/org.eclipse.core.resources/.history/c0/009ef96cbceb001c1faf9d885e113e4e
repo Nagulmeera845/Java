@@ -1,0 +1,20 @@
+// Non static var and method
+public class Foodorder_app {
+
+	static String Rest_name="KMM City Haveli";
+	static int no_of_dishes=15;
+	static int price=200;
+	int order_id=12345;
+	int discount_amt=100;
+	
+	public static void Order_details()
+	{
+		System.out.println(Rest_name);
+		System.out.println(no_of_dishes);
+		System.out.println(price);
+		Foodorder_app s1=new Foodorder_app();
+		System.out.println(s1.order_id);
+		System.out.println(s1.discount_amt);
+		
+	}
+}

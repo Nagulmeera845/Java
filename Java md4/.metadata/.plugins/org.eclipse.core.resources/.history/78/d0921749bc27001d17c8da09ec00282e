@@ -1,0 +1,21 @@
+package Strings_Progms;
+//WAP to reverse of a string by using scanner class
+public class Prog_5_1Reverse {
+	public static void main(String[] args) {
+    String input="Nagulmeera is Software Test Engineer";
+    String output=" "; 
+    int i;
+	for(int i1= input.length()-1;i1>=0;i1--) 
+    	output=output+input.charAt(i1);
+    
+    System.out.println(output);
+	}
+	}
+
+	
+	
+
+	
+
+	
+

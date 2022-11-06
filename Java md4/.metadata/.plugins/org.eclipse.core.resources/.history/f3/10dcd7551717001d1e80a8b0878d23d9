@@ -1,0 +1,14 @@
+package Arrays_Practise;
+
+public class Array_9_SumOfOddnums {
+
+	public static void main(String[] a) {
+     int sum=0;
+     for(int i=0;i<a.length;i++)
+     {
+    	 if(Integer.parseInt(a[i])%2!=0)
+    		 sum=sum+Integer.parseInt(a[i]);
+     }
+	}
+
+}

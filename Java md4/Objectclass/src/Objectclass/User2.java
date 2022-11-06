@@ -1,0 +1,21 @@
+package Objectclass;
+class MyThread2 implements Runnable{
+	public void run() {
+		for(int i=1;i<=5;i++)
+			System.out.println("MyThread");
+	}
+}
+
+public class User2 {
+
+	public static void main(String[] args) {
+    MyThread2 t1=new MyThread2();
+    Thread t2=new Thread(t1);
+    //Here car is of t2 type but driver is of t1 so according to driver methods
+    // will be executed.
+    t2.start();
+    for(int i=1;i<=5;i++)
+    	System.out.println("MainThread");
+	}
+
+}

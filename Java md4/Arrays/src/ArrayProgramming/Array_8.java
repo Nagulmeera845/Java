@@ -1,0 +1,19 @@
+package ArrayProgramming;
+//Create an array print sum&avg of an array values by-
+//-taking through CMD Line args
+
+public class Array_8 {
+
+	public static void main(String[] a) {
+    int Sum=0;
+    for(int i=0;i<a.length;i++)
+    {
+    	Sum=Sum+Integer.parseInt(a[i]);// convert to string into integers
+    }
+    System.out.println("Sum is : "+Sum);
+    
+    float avg=Sum/a.length;
+    System.out.println("Average :" +avg);
+	
+	}
+}

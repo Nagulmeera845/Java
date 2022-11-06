@@ -1,0 +1,11 @@
+package Arrays_Practise;
+
+public class Array_1_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    int a[]=new int[] {95,15,62,78,45};//Array creation in singe step
+    System.out.println(a[0]+" "+a[1]+" "+a[2]+" "+a[3]+" "+a[4]);
+	}
+
+}

@@ -1,0 +1,25 @@
+package Arrays_Practise;
+//WAP to create an array string type and add some data by ip taken- 
+// -from scanner class
+import java.util.Scanner;
+
+public class Array_4_Arraylogic_1 {
+
+	public static void main(String[] args) {
+     Scanner sc=new Scanner(System.in);
+     System.out.println("Enter your array size:");
+     int size=sc.nextInt();
+     String [] subjNames=new String[size];
+     for(int i=1;i<size;i++)  //index position start from zero
+    	 // here i'm taken index postion from 1
+     {
+    	 subjNames [i]=sc.next();
+     }
+     System.out.println("Your favourite subjects are:");
+     for(int j=0;j<size;j++) //so output of indexposition '0' is null
+     {
+    	 System.out.println(subjNames[j]);
+     }
+	}
+
+}

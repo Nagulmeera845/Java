@@ -1,0 +1,16 @@
+
+public class Print_Primenum_2_to_8 {
+
+	public static void main(String[] args) {
+		for(int num =2;num<=8;num++)
+		{
+			int count=0;
+			for(int i=1;i<=num;i++) {
+				if(num%i==0)
+					count++;
+			}
+		}
+
+	}
+
+}

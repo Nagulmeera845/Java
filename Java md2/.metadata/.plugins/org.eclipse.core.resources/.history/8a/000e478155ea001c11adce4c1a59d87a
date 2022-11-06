@@ -1,0 +1,18 @@
+
+public class Method_With_Args {
+	public static void areaOfRec(int l,int b)
+	{
+		int area_rec=l*b;
+		System.out.println(" Area of rect :"+ area_rec);
+	}
+	public static void areaOfCir(int r) 
+	{
+		float area_Cir=3.14F*r*r;
+		
+	}
+	public static void main(String args [])
+	{
+		areaOfRec(6,8); areaOfCir(5);
+	}
+
+}

@@ -1,0 +1,15 @@
+package Arrays_Practise;
+//WAP to create an array of float type store 5 values
+public class Array_2 {
+
+	public static void main(String[] args) {
+		// Array Creation
+  float n[]=new float[] {15.2F,14.3F,34.1F,78.4F,84.5F};//values are index/array values
+                       // 0     1      2     3     4=>index position
+  
+  System.out.println(n[0]+" "+n[1]+" "+n[2]+" "+n[3]+" "+n[4]);
+		
+
+	}
+
+}

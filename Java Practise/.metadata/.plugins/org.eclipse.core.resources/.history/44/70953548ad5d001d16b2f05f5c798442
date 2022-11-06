@@ -1,0 +1,13 @@
+package Local_Global;
+
+public class Static_NonStatic_Mem {
+	int a=15;
+  static int b=20;
+  
+  public static void main(String[] args) {
+	  Static_NonStatic_Mem obj1 =new Static_NonStatic_Mem();
+	  System.out.println(obj1.a);
+	System.out.println(b);
+	  
+}
+}

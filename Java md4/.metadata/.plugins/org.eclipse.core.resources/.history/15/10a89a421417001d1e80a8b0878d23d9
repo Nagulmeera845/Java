@@ -1,0 +1,17 @@
+package Arrays_Practise;
+
+public class Array_8Subrctn_Cmdlneargs {
+
+	public static void main(String[] a) {
+     int sub=0,sum=0;
+     for(int i=0;i<a.length;i++) {
+    	 sub=sub-Integer.parseInt(a[i]);
+    	 sum=sum+Integer.parseInt(a[i]);
+     }
+     System.out.println("Subtraction :"+sub);
+     System.out.println("Sum is:"+sum);
+     float avg=sum/a.length;
+     System.out.println("Average:"+avg);
+	}
+
+}

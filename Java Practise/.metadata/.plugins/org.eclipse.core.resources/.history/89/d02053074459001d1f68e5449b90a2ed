@@ -1,0 +1,13 @@
+package Important_Programs;
+
+public class Printonly_Even_values {
+
+	public static void main(String[] args) {
+    int arr[]=new int[] {15,6,74,16,18,29};
+    for(int i=1;i<=arr.length;i++)
+    {
+    	System.out.print(arr[i]+" ");
+    }
+	}
+
+}

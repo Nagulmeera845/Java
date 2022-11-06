@@ -1,0 +1,15 @@
+package Day2;
+import java.util.Scanner;
+
+public class Swapcmdlinearg {
+
+	public static void main(String[] args) {
+    Scanner scan =new Scanner(System.in);
+    System.out.println(" Enter number");
+    System.out.println("my number is :"+)
+    
+    
+    
+	}
+
+}

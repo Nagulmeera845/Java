@@ -1,0 +1,13 @@
+package Module1_Practice;
+
+public class Init_2 {
+
+	public static void main(String[] args) {
+    for(int num=1;num<=100;num++){
+    	if(num%10==2||num/10==2) {
+    		System.out.print("2Init number from 1 to 100 is:"+num);
+    	}
+    }
+	}
+
+}

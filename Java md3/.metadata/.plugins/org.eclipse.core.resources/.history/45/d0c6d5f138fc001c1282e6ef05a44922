@@ -1,0 +1,20 @@
+package Casting;
+class Student{
+	public void Viewing() {
+		System.out.println("yes");
+	}
+}
+class Admin extends Student{
+	public void Editing() {
+		System.out.println("No");
+	}
+}
+
+public class Normal_User {
+
+	public static void main(String[] args) {
+		Studenta s1=new Admin();
+
+	}
+
+}

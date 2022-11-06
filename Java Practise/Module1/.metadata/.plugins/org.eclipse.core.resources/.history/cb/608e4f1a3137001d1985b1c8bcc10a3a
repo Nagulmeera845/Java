@@ -1,0 +1,21 @@
+
+public class Module1 {
+
+	public static void main(String[] args) {
+    int daytype=2;
+    
+	switch(daytype)
+    {
+    case 1:
+    case 2:
+    case 3:
+    case 4:
+    case 5:System.out.println("weekday");
+    break;
+    case 6:System.out.println("weekend-1");
+    break;
+    case 7:System.out.println("weekend-2");
+    }
+	}
+
+}

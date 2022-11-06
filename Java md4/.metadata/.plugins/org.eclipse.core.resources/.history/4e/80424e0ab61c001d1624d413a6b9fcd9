@@ -1,0 +1,15 @@
+package ArrayProgramming;
+//WAP to create an array int type, with length
+public class Array_3 {
+
+	public static void main(String[] args) {
+    int a[]=new int[] {4545,4546,4547,4548,4549}; //array creation
+    int len=a.length; //used find the array length
+    System.out.println("Array length: "+len);
+    for(int i=0;i<len;i++) {
+    	System.out.println(a[i]);
+    }
+    
+	}
+
+}

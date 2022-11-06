@@ -1,0 +1,42 @@
+package ArrayProgramming;
+//WAP to delete duplicate values from an given array
+public class Array_20 {
+
+	public static void main(String[] args) {
+		int a[]= {1,2,3,1,5,1,2,1,2,4};
+		//Here i directly took sorted array but question can be 
+		//sorted or unsorted so u we take random array and 
+		// write sorting logic first
+		int temp;//Extra var for swapping
+		for(int i=0;i<a.length;i++)// first sort the array
+		{
+			for(int j=0;j<a.length-1;j++)
+	//new array will be:{1,1,1,1,2,2,2,3,4,5}
+			{
+				if(a[j]>a[j+1])
+				{
+				temp=a[j];
+			    a[j]=a[j+1];
+				a[j+1]=temp;
+			}
+		}
+	}
+	int b[]=new int [a.length];//take random array
+	int k=0;//extra var
+	for(int i=0;i<a.length-1;i++)//sorting logic
+		{
+		if(a[i]!=a[i+1])
+			//from 0 till last index compare each values if values are not same
+			//move it in another array	
+		{
+			b[k]=a[i];
+			k++;
+		}
+	}
+	b[k]=a[a.length-1];
+	for(int i=0;i<=k;i++)
+	{
+		System.out.println(b[i]);
+	}
+	}
+}

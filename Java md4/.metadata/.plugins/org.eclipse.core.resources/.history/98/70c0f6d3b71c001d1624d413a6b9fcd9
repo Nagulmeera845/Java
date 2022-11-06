@@ -1,0 +1,26 @@
+package ArrayProgramming;
+   //Array of integer type & by ip taken from user by using Scanner class
+import java.util.Scanner;
+
+public class Array_4_1 {
+
+	public static void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter size of an array: ");
+    int size=sc.nextInt();
+    System.out.println("Enter array names/values:");
+    String sub[]=new String[size];
+    for(int i=0;i<size;i++)
+    {
+       sub[i]=sc.next();
+    }
+    System.out.println("Array values are: ");
+    //printing
+    for(int j=0;j<size-1;j--)
+    {
+    	System.out.println(sub[j]);
+    	sc.close();
+    }
+	}
+
+}

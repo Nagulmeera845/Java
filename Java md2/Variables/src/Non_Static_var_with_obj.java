@@ -1,0 +1,13 @@
+// Non static var
+public class Non_Static_var_with_obj {
+	int i=100; String s="Java";
+	public static void main(String args[])
+	{
+		// classname referencevar=new clasname
+		Non_Static_var_with_obj s1=new Non_Static_var_with_obj();
+		System.out.println(s1.i);
+		System.out.println(s1.s);
+	}
+	
+
+}

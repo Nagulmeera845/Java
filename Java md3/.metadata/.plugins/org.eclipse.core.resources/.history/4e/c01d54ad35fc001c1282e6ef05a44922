@@ -1,0 +1,36 @@
+package Casting;
+
+class Student{
+	public void View() {
+		System.out.println("View details app");
+	}
+}
+class Admin extends Student{
+	public void edit() {
+		System.out.println("Edit details in app");
+	}
+}
+class Corporateoff extends Admin{
+	public void delete() {
+		System.out.println("Delete data permanently");
+	}
+}
+
+public class NormalUser {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student  a1=new Admin();
+		a1.View();
+		Admin a2=(Admin) a1;
+		a2.View();
+		a2.edit();
+		Corporateoff a3=(Corporateoff) a2;
+		a3.View();
+		a3.edit();
+		a3.delete();
+		
+
+	}
+
+}

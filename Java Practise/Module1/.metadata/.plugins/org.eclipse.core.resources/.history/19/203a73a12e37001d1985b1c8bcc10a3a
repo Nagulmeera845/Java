@@ -1,0 +1,15 @@
+
+public class Module1 {
+
+	public static void main(String[] args) {
+    int a=-41;
+    if(a%2==0)
+    System.out.println("+ve");
+    else if(a%2!=0)
+    	System.out.println("-ve");
+    else
+    	System.out.println("zero");
+	
+	}
+
+}

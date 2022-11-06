@@ -1,0 +1,15 @@
+package ArrayProgramming;
+
+public class Array_1 {
+
+	public static void main(String[] args) {
+    //@array creation
+	String col[]=new String[5];
+	//@initialisation
+	col[0]="Manual";  col[1]="core java";
+	col[3]="Sql"; col[4]="Selenium";
+	
+	System.out.println(col[0]+" "+col[1]+" "+col[2]+" "+col[3]+" "+col[4]);
+	}
+
+}

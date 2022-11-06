@@ -1,0 +1,34 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Car2 {
+	String name,colour,model;
+	double price;
+	int capacity;
+	public Car2(String name,String colour,double price)
+	{
+		this.name=name;
+		this.colour=colour;
+		this.price=price;
+	}
+	public Car2(String name,String colour,String model, int capacity, double price)
+	{
+		this.name=name;
+		this.colour=colour;
+		this.model=model;
+		this.capacity=capacity;
+		this.price=price;
+	}
+	public static void main(String args [])
+	{
+		Car2 a1=new  Car2(" audi", " black ",5000);
+		System.out.println(" Name : "+a1.name);
+		System.out.println(" colour : "+a1.colour);
+		
+		
+		
+		
+	}
+
+}

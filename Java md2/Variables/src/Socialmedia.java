@@ -1,0 +1,20 @@
+// static var
+public class Socialmedia {
+	static String uname="Nagul",pwd="Meera@123";
+	static int nonoffrnds=150,noofphts=250,noof_pages=50,noofposts=90;
+	public static void Insta_info()
+	{
+		System.out.println(uname);
+		System.out.println(pwd);
+		System.out.println(nonoffrnds);
+		System.out.println(noofphts);
+		System.out.println(noof_pages);
+		System.out.println(noofposts);
+		
+	}
+	public static void main (String args [])
+	{
+		Insta_info();
+	}
+
+}

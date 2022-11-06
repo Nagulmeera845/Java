@@ -1,0 +1,10 @@
+package Module1_Practice;
+
+public class Swap_two_num_using_extra_variable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package For_Each_Loop;
+
+public class Progm_8 {
+
+	public static void main(String[] args) {
+    String s="Java Development";
+    String s1="Java Development";
+    s=s.concat(" is easy");
+    System.out.println(s);
+    System.out.println(s1);
+	}
+
+}

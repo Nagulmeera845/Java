@@ -1,0 +1,39 @@
+public class Car2 {
+	String name,colour,model;
+	double price;
+	int capacity;
+	public Car2(String name,String colour,double price)
+	{
+		this.name=name;
+		this.colour=colour;
+		this.price=price;
+	}
+	public Car2(String name,String colour,String model, int capacity, double price)
+	{
+		this.name=name;
+		this.colour=colour;
+		this.model=model;
+		this.capacity=capacity;
+		this.price=price;
+	}
+	public static void main(String args [])
+	{
+		Car2 a1=new  Car2(" audi", "black ",5000);
+		System.out.println(" Name : "+a1.name);
+		System.out.println(" colour : "+a1.colour);
+		Car2 a2= new Car2("INNOVA ","red ",500000.0);
+		System.out.println(" Name : "+a2.name);
+		System.out.println(" colour : "+a2.colour);
+		System.out.println(" price : "+a2.price);
+		Car2 a3=new Car2("nano", "blue", "hitech",250,5000000.0);
+		System.out.println(" Name : "+a3.name);
+		System.out.println(" colour : "+a3.colour);
+		System.out.println(" model : "+a3.model);
+		System.out.println(" price : "+a3.price);
+		System.out.println(" capacity : "+a3.capacity);
+		
+		
+		
+	}
+
+}

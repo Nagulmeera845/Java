@@ -1,0 +1,14 @@
+package Arrays_Practise;
+
+public class Arrays_1 {
+
+	public static void main(String[] args) {
+		 int a[]=new int [5];//Array creation
+	      a[0]=95; a[1]=15; a[2]=62; a[3]=78;//Array initialisation
+	      a[4]=45;
+	      int a.length;
+	      //@printing
+	      System.out.println(a[0]+""+a[1]+""+a[2]+""+a[3]+""+a[4]);
+	}
+
+}

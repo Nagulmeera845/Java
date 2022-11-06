@@ -1,0 +1,12 @@
+package Important_Programs;
+
+import java.util.Arrays;
+
+public class AscendingOrder_elements {
+	public static void main(String[] args) {
+		int arr[]= {22,59,51,87,5};
+		Arrays.sort(arr);
+		System.out.println(Arrays.toString(arr));
+	}
+
+}

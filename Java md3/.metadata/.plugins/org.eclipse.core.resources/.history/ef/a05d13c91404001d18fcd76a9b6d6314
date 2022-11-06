@@ -1,0 +1,24 @@
+package Abstraction;
+interface ATM{
+	void Withdraw();
+	void deposit();
+	void Pinchange();
+}
+class icici implements ATM{
+	public void Withdraw() {
+		System.out.println("Withdraw");
+	}
+	
+	
+		
+	
+}
+
+public class User_3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

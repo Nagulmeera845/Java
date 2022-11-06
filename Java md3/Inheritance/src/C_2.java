@@ -1,0 +1,18 @@
+
+class A_2 {
+	public A_2() {
+		
+       System.out.println("A-class constructor");
+	}
+}
+class B_2 extends A_2 {
+	public B_2() {
+		// default super()
+		System.out.println("B-class constructor");
+	}
+}
+public class C_2{
+	public static void main(String args []) {
+		B_2 b1= new B_2();
+	}
+}

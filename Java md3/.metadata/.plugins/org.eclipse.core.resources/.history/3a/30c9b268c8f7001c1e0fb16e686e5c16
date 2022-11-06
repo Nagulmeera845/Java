@@ -1,0 +1,11 @@
+// 4
+class A_4 {
+public A_4 (int i) {
+	System.out.println("A-class constructor");
+}
+}
+class B_4 extends A_4{
+	public B_4{
+		
+	}
+}

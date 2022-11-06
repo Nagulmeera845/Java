@@ -1,0 +1,15 @@
+package ArrayProgramming;
+
+public class Array_3 {
+
+	public static void main(String[] args) {
+    int a[]=new int[] {4545,4546,4547,4548,4549};
+    int l=a.length;
+    System.out.println("Array length: "+l);
+    for(int i=0;i<l;i++) {
+    	System.out.print(a[i]);
+    }
+    
+	}
+
+}

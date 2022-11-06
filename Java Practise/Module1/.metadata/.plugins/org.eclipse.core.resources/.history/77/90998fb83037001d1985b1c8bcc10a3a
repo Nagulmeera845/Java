@@ -1,0 +1,20 @@
+
+public class Module1 {
+
+	public static void main(String[] args) {
+    int daytype=6;
+    
+	switch(daytype)
+    {
+    case 1:System.out.println("Monday");
+    case 2:System.out.println("Tuesday");
+    case 3:System.out.println("wedday");
+    break;
+    case 4:System.out.println("thrsday");
+    case 5:System.out.println("friday");
+    case 6:System.out.println("satday");
+    case 7:System.out.println("sunday");
+    }
+	}
+
+}

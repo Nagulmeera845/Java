@@ -1,0 +1,14 @@
+
+public class Module1 {
+
+	public static void main(String[] args) {
+    char cha='o';
+   if(cha=='a'||cha=='e'||cha=='o'||cha=='u')
+    
+    System.out.println("vowel");
+    else
+    	System.out.println("not");
+	
+	}
+
+}

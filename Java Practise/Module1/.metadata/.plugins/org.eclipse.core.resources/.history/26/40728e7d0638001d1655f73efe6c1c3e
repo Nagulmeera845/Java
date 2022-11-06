@@ -1,0 +1,10 @@
+package Module1_Practice;
+
+public class Armstrong_num {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

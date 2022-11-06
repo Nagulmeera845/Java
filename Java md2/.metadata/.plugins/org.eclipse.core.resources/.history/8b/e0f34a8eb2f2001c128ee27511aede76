@@ -1,0 +1,16 @@
+
+public class md1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     String name="SHoe", brand= "puma ", colour=" white", purchasefrom=" puma store", puron="22/april/2022 on sunday";
+     int price =4999;
+     System.out.println(name);
+     System.out.println(brand);
+     System.out.println(colour);
+     System.out.println(purchasefrom);
+     System.out.println(puron);
+     System.out.println(price);
+	}
+
+}

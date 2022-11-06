@@ -1,0 +1,12 @@
+package ArrayProgramming;
+
+public class Array_11 {
+
+	public static void main(String[] args) {
+     //Array creation 
+		String s[]=new String[] {"Manual","Apti","Automation","Sql"};
+		System.out.println(s[0]+" "+s[1]);
+		
+	}
+
+}

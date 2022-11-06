@@ -1,0 +1,15 @@
+package Strings_Progms;
+//WAP to count frequency of a particular word in a string
+public class Prog_10 {
+	public static void main(String[] args) {
+    String s="we are happy and we want to be happy";
+    String str[]=s.split(" ");
+    int count=0;
+    for(String d:str) {  // for each loop
+    	if(d.equals("happy"))
+    		count++;
+    }
+    System.out.println("happy occured :"+count+"times");
+	}
+
+}

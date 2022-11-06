@@ -1,0 +1,14 @@
+package Important_Programs;
+
+public class Rev_Of_Array_Values {
+
+	public static void main(String[] args) {
+		
+  int arr[]= new int[] {22,15,8,94,61};
+  
+  for(int j=arr.length-1;j>=0;j--) {
+	  System.out.print(arr[j]+" ");
+  }
+	}
+
+}
